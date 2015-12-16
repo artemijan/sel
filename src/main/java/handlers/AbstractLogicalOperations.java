@@ -11,7 +11,7 @@ import java.util.List;
  */
 public abstract class AbstractLogicalOperations<T> extends BaseExpressionHandler<T> {
     public T parseArgument(Object rawArgumentValue) throws SELException {
-        List<Boolean> parsedValues = new ArrayList<>();
+        List<Boolean> parsedValues = new ArrayList<Boolean>();
         String[] args = rawArgumentValue.toString().split(",");
         for (String val : args) {
             parsedValues.add(Boolean.valueOf(val));

@@ -18,7 +18,7 @@ public class DefaultEvaluator implements IExpressionEvaluator {
     private IExpressionContext context = new DefaultExpressionContext();
 
     private static String cutUnbalanced(String exp) {
-        Stack<Integer> stack = new Stack<>();
+        Stack<Integer> stack = new Stack<Integer>();
         for (int i = 0; i < exp.length(); i++) {
             if (exp.charAt(i) == '(') {
                 stack.push(i);
