@@ -63,7 +63,7 @@ public class DefaultEvaluator implements IExpressionEvaluator {
             String balanced = cutUnbalanced(match.group(0));
             if (!balanced.equals(match.group(0))) {
                 match = EXPRESSION_REGEX.matcher(balanced);
-                match.find();
+                continue;
             }
             String fullMatch = match.group(0);
             String expressionName = match.group(1);
