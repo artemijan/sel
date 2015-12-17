@@ -7,4 +7,11 @@
     <artifactId>sel</artifactId>
     <version>1.0</version>
     <packaging>jar</packaging>
+    <name>Simple expression language</name>
+    <description>
+        This library is needed to evaluate string expressions.
+        For example.
+        Expression: "Hello $user. Admin rights has been applied: $allOf($not(true),$anyOf(false,true))"
+        Evaluated: Hello UserName UserLastName: Admin rights has been applied: false
+    </description>
 </project>
