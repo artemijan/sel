@@ -1,9 +1,6 @@
-package common;
+package org.logicify.common;
 
-import exceptions.SELException;
-
-import java.util.List;
-import java.util.Objects;
+import org.logicify.exceptions.SELException;
 
 /**
  * Created by artem on 12/10/15.

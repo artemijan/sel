@@ -1,10 +1,8 @@
-package handlers;
+package org.logicify.handlers;
 
-import common.BaseExpressionHandler;
-import common.IExpressionContext;
-import exceptions.SELException;
-
-import java.util.List;
+import org.logicify.common.BaseExpressionHandler;
+import org.logicify.common.IExpressionContext;
+import org.logicify.exceptions.SELException;
 
 /**
  * Created by artem on 12/11/15.

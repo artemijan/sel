@@ -1,6 +1,6 @@
-import common.BaseExpressionHandler;
-import common.IExpressionContext;
-import exceptions.SELException;
+import org.logicify.common.BaseExpressionHandler;
+import org.logicify.common.IExpressionContext;
+import org.logicify.exceptions.SELException;
 
 /**
  * Created by artem on 12/16/15.

@@ -1,7 +1,7 @@
-package handlers;
+package org.logicify.handlers;
 
-import common.AbstractValueHandler;
-import common.IExpressionContext;
+import org.logicify.common.AbstractValueHandler;
+import org.logicify.common.IExpressionContext;
 
 /**
  * Created by artem on 12/11/15.

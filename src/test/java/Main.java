@@ -1,5 +1,5 @@
-import common.IExpressionEvaluator;
-import impl.DefaultEvaluator;
+import org.logicify.common.IExpressionEvaluator;
+import org.logicify.impl.DefaultEvaluator;
 
 /**
  * Created by artem on 12/16/15.

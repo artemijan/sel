@@ -1,6 +1,6 @@
-package handlers;
+package org.logicify.handlers;
 
-import common.IExpressionContext;
+import org.logicify.common.IExpressionContext;
 
 import java.util.List;
 

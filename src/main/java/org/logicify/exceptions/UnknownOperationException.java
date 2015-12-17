@@ -1,4 +1,4 @@
-package exceptions;
+package org.logicify.exceptions;
 
 /**
  * Created by artem on 12/16/15.

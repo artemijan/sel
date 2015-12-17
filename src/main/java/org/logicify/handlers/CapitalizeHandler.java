@@ -1,9 +1,7 @@
-package handlers;
+package org.logicify.handlers;
 
-import common.BaseExpressionHandler;
-import common.IExpressionContext;
-
-import java.util.List;
+import org.logicify.common.BaseExpressionHandler;
+import org.logicify.common.IExpressionContext;
 
 /**
  * Created by artem on 12/11/15.

@@ -1,7 +1,7 @@
-package handlers;
+package org.logicify.handlers;
 
-import common.BaseExpressionHandler;
-import exceptions.SELException;
+import org.logicify.common.BaseExpressionHandler;
+import org.logicify.exceptions.SELException;
 
 import java.util.ArrayList;
 import java.util.List;

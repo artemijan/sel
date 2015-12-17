@@ -1,6 +1,6 @@
-package common;
+package org.logicify.common;
 
-import exceptions.UnknownOperationException;
+import org.logicify.exceptions.UnknownOperationException;
 
 import java.util.List;
 
@@ -20,7 +20,7 @@ public interface IExpressionContext {
     Object unregisterValue(String name);
 
     /*
-        handlers
+        org.logicify.handlers
      */
     void registerHandler(IExpressionHandler functionHandler);
 

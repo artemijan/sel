@@ -1,8 +1,8 @@
-package impl;
+package org.logicify.impl;
 
-import common.IExpressionContext;
-import common.IExpressionEvaluator;
-import common.IExpressionHandler;
+import org.logicify.common.IExpressionContext;
+import org.logicify.common.IExpressionEvaluator;
+import org.logicify.common.IExpressionHandler;
 
 import java.util.Stack;
 import java.util.regex.Matcher;

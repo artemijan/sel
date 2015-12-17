@@ -1,6 +1,4 @@
-package common;
-
-import java.util.Objects;
+package org.logicify.common;
 
 /**
  * Created by artem on 12/11/15.

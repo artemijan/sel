@@ -1,6 +1,6 @@
-package common;
+package org.logicify.common;
 
-import exceptions.SELException;
+import org.logicify.exceptions.SELException;
 
 /**
  * Created by artem on 12/16/15.

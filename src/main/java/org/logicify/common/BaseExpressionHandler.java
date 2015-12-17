@@ -1,4 +1,4 @@
-package common;
+package org.logicify.common;
 
 /**
  * Created by artem on 12/10/15.

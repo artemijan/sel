@@ -1,12 +1,12 @@
-package impl;
+package org.logicify.impl;
 
-import common.IExpressionContext;
-import common.IExpressionHandler;
-import exceptions.UnknownOperationException;
-import handlers.LogicalConjunctionHandler;
-import handlers.LogicalDisjunctionHandler;
-import handlers.LogicalNotHandler;
-import handlers.ValueHandler;
+import org.logicify.common.IExpressionContext;
+import org.logicify.common.IExpressionHandler;
+import org.logicify.exceptions.UnknownOperationException;
+import org.logicify.handlers.LogicalConjunctionHandler;
+import org.logicify.handlers.LogicalDisjunctionHandler;
+import org.logicify.handlers.LogicalNotHandler;
+import org.logicify.handlers.ValueHandler;
 
 import java.util.HashMap;
 import java.util.List;
